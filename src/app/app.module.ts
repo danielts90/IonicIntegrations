@@ -10,6 +10,7 @@ import { HomePage } from '../pages/home/home';
 
 import { ActionSheet } from '@ionic-native/action-sheet'
 import { AdMobFree} from '@ionic-native/admob-free'
+import { AppAvailability } from '@ionic-native/app-availability'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AdMobFree} from '@ionic-native/admob-free'
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ActionSheet,
-    AdMobFree
+    AdMobFree,
+    AppAvailability
   ]
 })
 export class AppModule {}

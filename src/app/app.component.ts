@@ -28,5 +28,9 @@ export class MyApp {
   abrirAdMob(): void {
     this.rootPage = 'AdMobPage';
   }
+
+  abrirApplicationActive(): void {
+    this.rootPage = 'AppAvaliabilityPage';
+  }
 }
 
