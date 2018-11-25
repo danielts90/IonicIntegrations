@@ -24,5 +24,9 @@ export class MyApp {
   abrirActionShet(): void{
     this.rootPage = 'ActionSheetPage';
   }
+
+  abrirAdMob(): void {
+    this.rootPage = 'AdMobPage';
+  }
 }
 
