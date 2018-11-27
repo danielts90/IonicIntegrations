@@ -36,5 +36,9 @@ export class MyApp {
   abrirAppMinimize(): void {
     this.rootPage = 'ApplicationMinimisePage';
   }
+
+  abrirBarCodeScanner(): void {
+    this.rootPage = 'BarCodeScannerPage';
+  }
 }
 

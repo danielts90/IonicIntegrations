@@ -12,6 +12,7 @@ import { ActionSheet } from '@ionic-native/action-sheet'
 import { AdMobFree} from '@ionic-native/admob-free'
 import { AppAvailability } from '@ionic-native/app-availability'
 import { AppMinimize }  from '@ionic-native/app-minimize'
+import { BarcodeScanner } from '@ionic-native/barcode-scanner'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AppMinimize }  from '@ionic-native/app-minimize'
     ActionSheet,
     AdMobFree,
     AppAvailability,
-    AppMinimize
+    AppMinimize,
+    BarcodeScanner
   ]
 })
 export class AppModule {}
