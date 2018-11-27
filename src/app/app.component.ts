@@ -40,5 +40,9 @@ export class MyApp {
   abrirBarCodeScanner(): void {
     this.rootPage = 'BarCodeScannerPage';
   }
+
+  abrirBateryStatusPage(): void {
+    this.rootPage = 'BateryStatusPage';
+  }
 }
 

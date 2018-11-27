@@ -8,11 +8,12 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
 
-import { ActionSheet } from '@ionic-native/action-sheet'
-import { AdMobFree} from '@ionic-native/admob-free'
-import { AppAvailability } from '@ionic-native/app-availability'
-import { AppMinimize }  from '@ionic-native/app-minimize'
-import { BarcodeScanner } from '@ionic-native/barcode-scanner'
+import { ActionSheet } from '@ionic-native/action-sheet';
+import { AdMobFree} from '@ionic-native/admob-free';
+import { AppAvailability } from '@ionic-native/app-availability';
+import { AppMinimize }  from '@ionic-native/app-minimize';
+import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { BatteryStatus } from '@ionic-native/battery-status';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner'
     AdMobFree,
     AppAvailability,
     AppMinimize,
-    BarcodeScanner
+    BarcodeScanner,
+    BatteryStatus
   ]
 })
 export class AppModule {}
