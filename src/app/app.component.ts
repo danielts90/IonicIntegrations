@@ -32,5 +32,9 @@ export class MyApp {
   abrirApplicationActive(): void {
     this.rootPage = 'AppAvaliabilityPage';
   }
+
+  abrirAppMinimize(): void {
+    this.rootPage = 'ApplicationMinimisePage';
+  }
 }
 

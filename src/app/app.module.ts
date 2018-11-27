@@ -11,6 +11,7 @@ import { HomePage } from '../pages/home/home';
 import { ActionSheet } from '@ionic-native/action-sheet'
 import { AdMobFree} from '@ionic-native/admob-free'
 import { AppAvailability } from '@ionic-native/app-availability'
+import { AppMinimize }  from '@ionic-native/app-minimize'
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AppAvailability } from '@ionic-native/app-availability'
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ActionSheet,
     AdMobFree,
-    AppAvailability
+    AppAvailability,
+    AppMinimize
   ]
 })
 export class AppModule {}
