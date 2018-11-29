@@ -15,6 +15,7 @@ import { AppMinimize }  from '@ionic-native/app-minimize';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { BatteryStatus } from '@ionic-native/battery-status';
 import { BrowserTab } from '@ionic-native/browser-tab'
+import { Camera }from '@ionic-native/camera'
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { BrowserTab } from '@ionic-native/browser-tab'
     AppMinimize,
     BarcodeScanner,
     BatteryStatus,
-    BrowserTab
+    BrowserTab,
+    Camera
   ]
 })
 export class AppModule {}

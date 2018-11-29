@@ -48,5 +48,9 @@ export class MyApp {
   abrirBrowserTab(): void {
     this.rootPage = 'BrowserTabPage';
   }
+
+  abrirCamera(): void {
+    this.rootPage = 'CameraPage';
+  }
 }
 
