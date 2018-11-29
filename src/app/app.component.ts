@@ -44,5 +44,9 @@ export class MyApp {
   abrirBateryStatusPage(): void {
     this.rootPage = 'BateryStatusPage';
   }
+
+  abrirBrowserTab(): void {
+    this.rootPage = 'BrowserTabPage';
+  }
 }
 

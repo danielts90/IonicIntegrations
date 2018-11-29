@@ -14,6 +14,7 @@ import { AppAvailability } from '@ionic-native/app-availability';
 import { AppMinimize }  from '@ionic-native/app-minimize';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { BatteryStatus } from '@ionic-native/battery-status';
+import { BrowserTab } from '@ionic-native/browser-tab'
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BatteryStatus } from '@ionic-native/battery-status';
     AppAvailability,
     AppMinimize,
     BarcodeScanner,
-    BatteryStatus
+    BatteryStatus,
+    BrowserTab
   ]
 })
 export class AppModule {}
